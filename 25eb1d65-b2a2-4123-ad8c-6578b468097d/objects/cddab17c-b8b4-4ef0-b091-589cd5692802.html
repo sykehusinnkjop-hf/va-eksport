@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Data Event Layer</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Data Event Layer</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/bc383e0f-d3cc-4659-8749-01798c60a38a.html" target="element"> Microsoft Flow </a> </td>
+											    <td> <a href="../elements/bc383e0f-d3cc-4659-8749-01798c60a38a.html" target="element" class="i18n-elementtype-TechnologyService"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/989d6d82-8a54-48ab-b70d-10c331f9ffbc.html" target="element"> Prosjektregister Flow </a> </td>
+													    <td> <a href="../elements/989d6d82-8a54-48ab-b70d-10c331f9ffbc.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/f68722ab-dda2-41b3-9fcb-df3d2c64e0a1.html" target="element"> Tidsbanken Create </a> </td>
+															    <td> <a href="../elements/f68722ab-dda2-41b3-9fcb-df3d2c64e0a1.html" target="element" class="i18n-elementtype-ApplicationFunction"> </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/5c807778-27cc-4b09-b435-ac1002189be2.html" target="element"> Tidsbanken Update </a> </td>
+															    <td> <a href="../elements/5c807778-27cc-4b09-b435-ac1002189be2.html" target="element" class="i18n-elementtype-ApplicationFunction"> </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/4f3b93e3-90c6-4286-a0a2-9a04a7c82c8a.html" target="element"> Visma Create </a> </td>
+															    <td> <a href="../elements/4f3b93e3-90c6-4286-a0a2-9a04a7c82c8a.html" target="element" class="i18n-elementtype-ApplicationFunction"> </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/5460beb1-089f-4497-ad90-fd92b478ecca.html" target="element"> Visma Update </a> </td>
+															    <td> <a href="../elements/5460beb1-089f-4497-ad90-fd92b478ecca.html" target="element" class="i18n-elementtype-ApplicationFunction"> </a> </td>
+															</tr>
+
+													
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/7975bdec-5fbf-4085-9545-206fdd91f7f8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7975bdec-5fbf-4085-9545-206fdd91f7f8.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/bc383e0f-d3cc-4659-8749-01798c60a38a.html" target="element"> Microsoft Flow </a> </td>
+																		<td> <a href="../elements/989d6d82-8a54-48ab-b70d-10c331f9ffbc.html" target="element"> Prosjektregister Flow </a> </td>
+																	</tr>
+
+																					<tr>
+																						<td> <a href="../elements/15538644-ffba-4893-a7c0-907709350ec3.html" target="element">  </a> </td>
+																						<td> <a href="../elements/15538644-ffba-4893-a7c0-907709350ec3.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																						<td> <a href="../elements/f68722ab-dda2-41b3-9fcb-df3d2c64e0a1.html" target="element"> Tidsbanken Create </a> </td>
+																						<td> <a href="../elements/989d6d82-8a54-48ab-b70d-10c331f9ffbc.html" target="element"> Prosjektregister Flow </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/d66a1b39-426e-40e8-97d1-c1f61e1d80d5.html" target="element">  </a> </td>
+																						<td> <a href="../elements/d66a1b39-426e-40e8-97d1-c1f61e1d80d5.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																						<td> <a href="../elements/f68722ab-dda2-41b3-9fcb-df3d2c64e0a1.html" target="element"> Tidsbanken Create </a> </td>
+																						<td> <a href="../elements/2d80f390-5ecf-426c-8045-1b63d0c04586.html" target="element"> https://api.tidsbanken.net/v2/prosjekter </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/3a203747-8d96-47e3-b38b-8bac5ccd8e98.html" target="element">  </a> </td>
+																						<td> <a href="../elements/3a203747-8d96-47e3-b38b-8bac5ccd8e98.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																						<td> <a href="../elements/5c807778-27cc-4b09-b435-ac1002189be2.html" target="element"> Tidsbanken Update </a> </td>
+																						<td> <a href="../elements/989d6d82-8a54-48ab-b70d-10c331f9ffbc.html" target="element"> Prosjektregister Flow </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/b4113aa1-906d-4587-9bc3-a3ea4fb244d7.html" target="element">  </a> </td>
+																						<td> <a href="../elements/b4113aa1-906d-4587-9bc3-a3ea4fb244d7.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																						<td> <a href="../elements/5c807778-27cc-4b09-b435-ac1002189be2.html" target="element"> Tidsbanken Update </a> </td>
+																						<td> <a href="../elements/2d80f390-5ecf-426c-8045-1b63d0c04586.html" target="element"> https://api.tidsbanken.net/v2/prosjekter </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/fe9adf8b-68d6-4e25-9add-d997187d9c56.html" target="element">  </a> </td>
+																						<td> <a href="../elements/fe9adf8b-68d6-4e25-9add-d997187d9c56.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																						<td> <a href="../elements/4f3b93e3-90c6-4286-a0a2-9a04a7c82c8a.html" target="element"> Visma Create </a> </td>
+																						<td> <a href="../elements/989d6d82-8a54-48ab-b70d-10c331f9ffbc.html" target="element"> Prosjektregister Flow </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/ef45b2a9-b3e2-49eb-8b96-d78cdbeb44ca.html" target="element">  </a> </td>
+																						<td> <a href="../elements/ef45b2a9-b3e2-49eb-8b96-d78cdbeb44ca.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																						<td> <a href="../elements/4f3b93e3-90c6-4286-a0a2-9a04a7c82c8a.html" target="element"> Visma Create </a> </td>
+																						<td> <a href="../elements/0b3cfc72-01c6-4009-a9fa-863e758e04fb.html" target="element"> Visma Business REST API </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/4f17d145-00f6-4296-90ef-bd511badc3f1.html" target="element">  </a> </td>
+																						<td> <a href="../elements/4f17d145-00f6-4296-90ef-bd511badc3f1.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																						<td> <a href="../elements/5460beb1-089f-4497-ad90-fd92b478ecca.html" target="element"> Visma Update </a> </td>
+																						<td> <a href="../elements/989d6d82-8a54-48ab-b70d-10c331f9ffbc.html" target="element"> Prosjektregister Flow </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/4fdb8b70-a7d2-41da-a305-a55ed849a0ea.html" target="element">  </a> </td>
+																						<td> <a href="../elements/4fdb8b70-a7d2-41da-a305-a55ed849a0ea.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																						<td> <a href="../elements/5460beb1-089f-4497-ad90-fd92b478ecca.html" target="element"> Visma Update </a> </td>
+																						<td> <a href="../elements/0b3cfc72-01c6-4009-a9fa-863e758e04fb.html" target="element"> Visma Business REST API </a> </td>
+																					</tr>
+
+													
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
