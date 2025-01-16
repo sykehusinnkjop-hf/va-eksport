@@ -1,0 +1,335 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>API</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>API</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/03a0e2f2-ae38-4d08-b56d-ad04f6cf1cfc.png" alt="API" usemap="#03a0e2f2-ae38-4d08-b56d-ad04f6cf1cfcmap"/>
+			   <map name="03a0e2f2-ae38-4d08-b56d-ad04f6cf1cfcmap">
+				  		<area shape="rect" coords="944,380,1064,435" href="../elements/a5263510-40e3-4be2-bbb3-f7b19039ce81.html"  target="element">
+				  		<area shape="rect" coords="944,297,1064,352" href="../elements/2efcfd3d-7ed7-4d82-a0e7-bb979836bdcd.html"  target="element">
+				  		<area shape="rect" coords="944,215,1064,270" href="../elements/d967468c-8d99-4b45-af8b-abbe143e9ad1.html"  target="element">
+				  		<area shape="rect" coords="944,132,1064,187" href="../elements/a7d52cf5-cc13-46db-b3a2-67d2776c949c.html"  target="element">
+				  						<area shape="rect" coords="104,94,224,149" href="../elements/cb27e0f9-3d8e-4eee-9bf2-a68448b7871b.html"  target="element">
+				  						<area shape="rect" coords="104,190,224,245" href="../elements/e9e39340-9998-4e18-a5b1-eb55c769af20.html"  target="element">
+				  						<area shape="rect" coords="104,286,224,341" href="../elements/0e43585d-14b7-4e35-b30b-33143a093e32.html"  target="element">
+
+				  				<area shape="rect" coords="92,46,277,468" href="../elements/882d6f05-3d6b-4767-b8b8-8502b560b852.html"  target="element">
+
+				  		<area shape="rect" coords="80,10,285,526" href="../elements/479b0771-2a06-49c0-8abd-3163a96daaf6.html"  target="element">
+				  		<area shape="rect" coords="474,485,594,540" href="../elements/dfd76e0b-8b03-480c-aec7-dfbc85911211.html"  target="element">
+				  		<area shape="rect" coords="656,374,776,429" href="../elements/c06f49ac-fc70-4b34-a2f0-d7aed00544cf.html"  target="element">
+				  		<area shape="rect" coords="474,323,594,378" href="../elements/18ea8115-d8aa-4dc5-a0a4-5c3e0e505216.html"  target="element">
+				  		<area shape="rect" coords="656,212,776,267" href="../elements/55904a24-bbfe-410f-be82-6f90a2ac807e.html"  target="element">
+				  		<area shape="rect" coords="474,161,594,216" href="../elements/9809d971-b7e2-426a-9bdb-3e48774f981d.html"  target="element">
+				  		<area shape="rect" coords="656,60,776,115" href="../elements/259ddd00-76a9-4de6-afc3-36279a34f586.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/259ddd00-76a9-4de6-afc3-36279a34f586.html" target="element"> Innkjopsportalen </a> </td>
+											    <td> <a href="../elements/259ddd00-76a9-4de6-afc3-36279a34f586.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/9809d971-b7e2-426a-9bdb-3e48774f981d.html" target="element"> Applikasjonskomponent </a> </td>
+											    <td> <a href="../elements/9809d971-b7e2-426a-9bdb-3e48774f981d.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/55904a24-bbfe-410f-be82-6f90a2ac807e.html" target="element"> Applikasjonstjeneste (copy) </a> </td>
+											    <td> <a href="../elements/55904a24-bbfe-410f-be82-6f90a2ac807e.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/18ea8115-d8aa-4dc5-a0a4-5c3e0e505216.html" target="element"> Applikasjonskomponent (copy) </a> </td>
+											    <td> <a href="../elements/18ea8115-d8aa-4dc5-a0a4-5c3e0e505216.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c06f49ac-fc70-4b34-a2f0-d7aed00544cf.html" target="element"> Applikasjonstjeneste (copy) </a> </td>
+											    <td> <a href="../elements/c06f49ac-fc70-4b34-a2f0-d7aed00544cf.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/dfd76e0b-8b03-480c-aec7-dfbc85911211.html" target="element"> Applikasjonskomponent (copy) </a> </td>
+											    <td> <a href="../elements/dfd76e0b-8b03-480c-aec7-dfbc85911211.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/479b0771-2a06-49c0-8abd-3163a96daaf6.html" target="element"> Azure API management </a> </td>
+											    <td> <a href="../elements/479b0771-2a06-49c0-8abd-3163a96daaf6.html" target="element" class="i18n-elementtype-TechnologyInterface">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/882d6f05-3d6b-4767-b8b8-8502b560b852.html" target="element"> Produkt A </a> </td>
+													    <td> <a href="../elements/882d6f05-3d6b-4767-b8b8-8502b560b852.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/0e43585d-14b7-4e35-b30b-33143a093e32.html" target="element"> reklamasjon </a> </td>
+															    <td> <a href="../elements/0e43585d-14b7-4e35-b30b-33143a093e32.html" target="element" class="i18n-elementtype-ApplicationInterface">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/e9e39340-9998-4e18-a5b1-eb55c769af20.html" target="element"> statistikk </a> </td>
+															    <td> <a href="../elements/e9e39340-9998-4e18-a5b1-eb55c769af20.html" target="element" class="i18n-elementtype-ApplicationInterface">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/cb27e0f9-3d8e-4eee-9bf2-a68448b7871b.html" target="element"> hstat.no </a> </td>
+															    <td> <a href="../elements/cb27e0f9-3d8e-4eee-9bf2-a68448b7871b.html" target="element" class="i18n-elementtype-ApplicationInterface">
+															    </a> </td>
+															</tr>
+
+													
+											
+											<tr>
+											    <td> <a href="../elements/a7d52cf5-cc13-46db-b3a2-67d2776c949c.html" target="element"> Avtaleregister </a> </td>
+											    <td> <a href="../elements/a7d52cf5-cc13-46db-b3a2-67d2776c949c.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/d967468c-8d99-4b45-af8b-abbe143e9ad1.html" target="element"> Prosjektregister </a> </td>
+											    <td> <a href="../elements/d967468c-8d99-4b45-af8b-abbe143e9ad1.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/2efcfd3d-7ed7-4d82-a0e7-bb979836bdcd.html" target="element"> Risikoregister </a> </td>
+											    <td> <a href="../elements/2efcfd3d-7ed7-4d82-a0e7-bb979836bdcd.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/a5263510-40e3-4be2-bbb3-f7b19039ce81.html" target="element"> Leverand&#248;rstatistikk </a> </td>
+											    <td> <a href="../elements/a5263510-40e3-4be2-bbb3-f7b19039ce81.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/a824fc05-647d-4449-8b1a-fdd66fa71394.html" target="element">  </a> </td>
+																		<td> <a href="../elements/a824fc05-647d-4449-8b1a-fdd66fa71394.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/9809d971-b7e2-426a-9bdb-3e48774f981d.html" target="element"> Applikasjonskomponent </a> </td>
+																		<td> <a href="../elements/259ddd00-76a9-4de6-afc3-36279a34f586.html" target="element"> Innkjopsportalen </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/eaac5664-d090-42c4-9d29-564fa94fbbfe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/eaac5664-d090-42c4-9d29-564fa94fbbfe.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/9809d971-b7e2-426a-9bdb-3e48774f981d.html" target="element"> Applikasjonskomponent </a> </td>
+																		<td> <a href="../elements/cb27e0f9-3d8e-4eee-9bf2-a68448b7871b.html" target="element"> hstat.no </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/00382c77-7d98-4aaf-83fe-e987aeabf280.html" target="element">  </a> </td>
+																		<td> <a href="../elements/00382c77-7d98-4aaf-83fe-e987aeabf280.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/18ea8115-d8aa-4dc5-a0a4-5c3e0e505216.html" target="element"> Applikasjonskomponent (copy) </a> </td>
+																		<td> <a href="../elements/55904a24-bbfe-410f-be82-6f90a2ac807e.html" target="element"> Applikasjonstjeneste (copy) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/553da133-3935-4b17-8d6e-da7ddb2b9f3c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/553da133-3935-4b17-8d6e-da7ddb2b9f3c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/18ea8115-d8aa-4dc5-a0a4-5c3e0e505216.html" target="element"> Applikasjonskomponent (copy) </a> </td>
+																		<td> <a href="../elements/e9e39340-9998-4e18-a5b1-eb55c769af20.html" target="element"> statistikk </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/e2775631-b2f3-479e-ad1b-8118fe2b2930.html" target="element">  </a> </td>
+																		<td> <a href="../elements/e2775631-b2f3-479e-ad1b-8118fe2b2930.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/dfd76e0b-8b03-480c-aec7-dfbc85911211.html" target="element"> Applikasjonskomponent (copy) </a> </td>
+																		<td> <a href="../elements/c06f49ac-fc70-4b34-a2f0-d7aed00544cf.html" target="element"> Applikasjonstjeneste (copy) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/bad99873-762c-4026-bb3b-b0afa3006179.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bad99873-762c-4026-bb3b-b0afa3006179.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/dfd76e0b-8b03-480c-aec7-dfbc85911211.html" target="element"> Applikasjonskomponent (copy) </a> </td>
+																		<td> <a href="../elements/0e43585d-14b7-4e35-b30b-33143a093e32.html" target="element"> reklamasjon </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/f6ea740f-cc80-4be2-bff7-107db22c54fa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f6ea740f-cc80-4be2-bff7-107db22c54fa.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/479b0771-2a06-49c0-8abd-3163a96daaf6.html" target="element"> Azure API management </a> </td>
+																		<td> <a href="../elements/e9e39340-9998-4e18-a5b1-eb55c769af20.html" target="element"> statistikk </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/09fef21b-4e5d-4a50-8a78-1284e5e9e86e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/09fef21b-4e5d-4a50-8a78-1284e5e9e86e.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/479b0771-2a06-49c0-8abd-3163a96daaf6.html" target="element"> Azure API management </a> </td>
+																		<td> <a href="../elements/0e43585d-14b7-4e35-b30b-33143a093e32.html" target="element"> reklamasjon </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ef16bd6e-e11c-443e-a4df-1fc0ac122955.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ef16bd6e-e11c-443e-a4df-1fc0ac122955.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/479b0771-2a06-49c0-8abd-3163a96daaf6.html" target="element"> Azure API management </a> </td>
+																		<td> <a href="../elements/cb27e0f9-3d8e-4eee-9bf2-a68448b7871b.html" target="element"> hstat.no </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/7eaeaf94-c8c6-4f2e-913b-2426b0832bac.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7eaeaf94-c8c6-4f2e-913b-2426b0832bac.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/479b0771-2a06-49c0-8abd-3163a96daaf6.html" target="element"> Azure API management </a> </td>
+																		<td> <a href="../elements/882d6f05-3d6b-4767-b8b8-8502b560b852.html" target="element"> Produkt A </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/b1b7caea-ce77-457c-b2d8-c2e58a2b0b10.html" target="element">  </a> </td>
+																				<td> <a href="../elements/b1b7caea-ce77-457c-b2d8-c2e58a2b0b10.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/882d6f05-3d6b-4767-b8b8-8502b560b852.html" target="element"> Produkt A </a> </td>
+																				<td> <a href="../elements/0e43585d-14b7-4e35-b30b-33143a093e32.html" target="element"> reklamasjon </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/562e4fa9-00f4-46d7-9954-fbea0376a1ee.html" target="element">  </a> </td>
+																				<td> <a href="../elements/562e4fa9-00f4-46d7-9954-fbea0376a1ee.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/882d6f05-3d6b-4767-b8b8-8502b560b852.html" target="element"> Produkt A </a> </td>
+																				<td> <a href="../elements/e9e39340-9998-4e18-a5b1-eb55c769af20.html" target="element"> statistikk </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/e183803c-e885-48f7-86c5-7e813129ebc1.html" target="element">  </a> </td>
+																				<td> <a href="../elements/e183803c-e885-48f7-86c5-7e813129ebc1.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/882d6f05-3d6b-4767-b8b8-8502b560b852.html" target="element"> Produkt A </a> </td>
+																				<td> <a href="../elements/cb27e0f9-3d8e-4eee-9bf2-a68448b7871b.html" target="element"> hstat.no </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/65b313ce-dc89-4a92-a1e4-03fb8708f643.html" target="element">  </a> </td>
+																						<td> <a href="../elements/65b313ce-dc89-4a92-a1e4-03fb8708f643.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/0e43585d-14b7-4e35-b30b-33143a093e32.html" target="element"> reklamasjon </a> </td>
+																						<td> <a href="../elements/c06f49ac-fc70-4b34-a2f0-d7aed00544cf.html" target="element"> Applikasjonstjeneste (copy) </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/fb48941f-76b9-4c4f-a94a-5968a93330a7.html" target="element">  </a> </td>
+																						<td> <a href="../elements/fb48941f-76b9-4c4f-a94a-5968a93330a7.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/e9e39340-9998-4e18-a5b1-eb55c769af20.html" target="element"> statistikk </a> </td>
+																						<td> <a href="../elements/55904a24-bbfe-410f-be82-6f90a2ac807e.html" target="element"> Applikasjonstjeneste (copy) </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/e756a658-e261-4ead-947a-ca518806897b.html" target="element">  </a> </td>
+																						<td> <a href="../elements/e756a658-e261-4ead-947a-ca518806897b.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/cb27e0f9-3d8e-4eee-9bf2-a68448b7871b.html" target="element"> hstat.no </a> </td>
+																						<td> <a href="../elements/259ddd00-76a9-4de6-afc3-36279a34f586.html" target="element"> Innkjopsportalen </a> </td>
+																					</tr>
+
+													
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

@@ -1,0 +1,872 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Løsninings arkitektur</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>L&#248;sninings arkitektur</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/e1e40352-6c37-4a2c-9c28-ed50ab87a012.png" alt="Løsninings arkitektur" usemap="#e1e40352-6c37-4a2c-9c28-ed50ab87a012map"/>
+			   <map name="e1e40352-6c37-4a2c-9c28-ed50ab87a012map">
+				  		        <area shape="rect" coords="1331,34,1516,95" href="../objects/id-649d5988a9b343b2a5d3e6c66d6f7d6c.html" target="element" >
+
+				  		<area shape="rect" coords="1307,10,1608,119" href="../elements/id-2a8b137fd0cc4973819ec624d7887849.html"  target="element">
+				  		        <area shape="rect" coords="1343,159,1528,244" href="../objects/id-a72a7327f937499c9a11fad047391106.html" target="element" >
+
+				  		<area shape="rect" coords="1307,135,1608,244" href="../elements/id-33a607d0c9ec420e866fc2a3b4719e87.html"  target="element">
+				  				<area shape="rect" coords="1331,346,1560,395" href="../elements/id-cd5c8a23020a4d369f4019a6ee6640bb.html"  target="element">
+				  		        <area shape="rect" coords="1331,286,1560,323" href="../objects/id-a75520c0901e48648195179f9e1fbd45.html" target="element" >
+
+				  		<area shape="rect" coords="1307,262,1608,1067" href="../elements/id-4cf83ac6d6ba489bb6e3f885c6d930cc.html"  target="element">
+				  		        <area shape="rect" coords="995,34,1180,95" href="../objects/id-26dda204e3c04612b1de0a46bfd82974.html" target="element" >
+
+				  		<area shape="rect" coords="971,10,1272,119" href="../elements/id-ed3f6d2b023a47e896cfc40b1fdce570.html"  target="element">
+				  		        <area shape="rect" coords="659,34,844,95" href="../objects/id-725845a7873c47d19b08e1ef3e69105b.html" target="element" >
+
+				  		<area shape="rect" coords="635,10,936,119" href="../elements/id-47052df48d6140efbee2fe305bf20152.html"  target="element">
+				  		        <area shape="rect" coords="347,34,532,95" href="../objects/id-b1c8cfe535324cfe84919851512a0dd2.html" target="element" >
+
+				  		<area shape="rect" coords="323,10,601,119" href="../elements/id-4e436d25d6194d6c818c8f8d3518f4c7.html"  target="element">
+				  		        <area shape="rect" coords="22,34,207,95" href="../objects/id-55115bd88e744a5faaed1dc171297c5c.html" target="element" >
+
+				  		<area shape="rect" coords="10,10,288,119" href="../elements/cf1162a5-ac80-46f5-b106-dfda51e11ecd.html"  target="element">
+				  		        <area shape="rect" coords="1007,159,1192,244" href="../objects/a0689cf3-e93a-457a-bdee-7ffa092f5458.html" target="element" >
+
+				  		<area shape="rect" coords="971,135,1272,244" href="../elements/ddd936cd-dbe4-4952-9971-d8d9d5cd44e8.html"  target="element">
+				  		        <area shape="rect" coords="671,154,856,239" href="../objects/68b4e905-99e7-443d-b58c-680f7de350ae.html" target="element" >
+
+				  		<area shape="rect" coords="635,130,936,239" href="../elements/648aa36e-134f-4a8c-9d00-6fed89d54617.html"  target="element">
+				  		        <area shape="rect" coords="359,154,544,239" href="../objects/5559ab80-011e-490d-a075-83706ac18d22.html" target="element" >
+
+				  		<area shape="rect" coords="323,130,601,239" href="../elements/6c5e1087-edc9-49d1-a1ce-b233af07c34d.html"  target="element">
+				  		        <area shape="rect" coords="46,154,231,239" href="../objects/1d19d36d-ba72-4d39-b801-da9929c167e5.html" target="element" >
+
+				  		<area shape="rect" coords="10,130,288,239" href="../elements/313465e1-5b25-437a-8093-c3612bfaf472.html"  target="element">
+				  				<area shape="rect" coords="995,406,1224,455" href="../elements/e0b13194-f885-46b5-9aaf-0846bec49e85.html"  target="element">
+				  				<area shape="rect" coords="995,346,1224,395" href="../elements/42593d9b-d0a9-45ea-b8f8-3be2c7e80471.html"  target="element">
+				  		        <area shape="rect" coords="995,286,1224,323" href="../objects/583fa931-0d87-44d7-958a-80d864d9b7c0.html" target="element" >
+
+				  		<area shape="rect" coords="971,262,1272,1067" href="../elements/4cbfc35d-eb39-43d2-a978-0b11fc3eaaba.html"  target="element">
+				  				<area shape="rect" coords="659,586,912,635" href="../elements/id-5aec9f0a40e249a5afd043f525e6240a.html"  target="element">
+				  				<area shape="rect" coords="659,526,912,575" href="../elements/id-2240925b1a904309affe545ff3d758b1.html"  target="element">
+				  				<area shape="rect" coords="659,466,912,515" href="../elements/id-54de933dfe804715bf4b7b893a680f97.html"  target="element">
+				  				<area shape="rect" coords="659,406,912,455" href="../elements/id-d7b8057b8b1d44ef9cea8190c9dd4371.html"  target="element">
+				  				<area shape="rect" coords="659,346,912,395" href="../elements/id-bbecdd214f2c4e1791dd4a27448d0dbc.html"  target="element">
+				  		        <area shape="rect" coords="659,286,888,323" href="../objects/48289dc2-2b9f-4157-b340-2cc9353eec1a.html" target="element" >
+
+				  		<area shape="rect" coords="635,262,936,1067" href="../elements/787a5c62-27bb-4983-9120-470873884a88.html"  target="element">
+				  		        <area shape="rect" coords="341,286,570,323" href="../objects/b1cca8c8-a17d-477d-a69a-ef7c653513bf.html" target="element" >
+				  				<area shape="rect" coords="335,1006,576,1055" href="../elements/f8b0fbe0-b119-49f1-a642-ac83bc6798c6.html"  target="element">
+				  				<area shape="rect" coords="335,946,576,995" href="../elements/cf293af5-4a02-4da7-94d2-08bff81a1c38.html"  target="element">
+				  				<area shape="rect" coords="335,886,576,935" href="../elements/f8993876-e977-4c74-8bf9-849eb2db9b9e.html"  target="element">
+				  				<area shape="rect" coords="335,826,576,875" href="../elements/bdf8b8c2-b3ad-4046-a723-1e0ca532b1cb.html"  target="element">
+				  				<area shape="rect" coords="335,766,576,815" href="../elements/4500a56c-9bd8-4d8f-b4b9-f7a05201006f.html"  target="element">
+				  				<area shape="rect" coords="335,706,576,755" href="../elements/eee0595e-0c4d-4980-baf9-dae63f30b8db.html"  target="element">
+				  				<area shape="rect" coords="335,646,576,695" href="../elements/9f4da9b4-95b5-456a-8b3f-0f5d8a3795d2.html"  target="element">
+				  				<area shape="rect" coords="335,586,576,635" href="../elements/896abdc0-79cb-4911-afe7-dc505bb28169.html"  target="element">
+				  				<area shape="rect" coords="335,526,576,575" href="../elements/8100ae3f-b823-4af2-a985-d5cc79a18036.html"  target="element">
+				  				<area shape="rect" coords="335,466,576,515" href="../elements/473df7c2-8624-4a0d-a95f-a4b50990ad47.html"  target="element">
+				  				<area shape="rect" coords="335,406,576,455" href="../elements/296f61ad-1001-4858-9494-58312b2d0792.html"  target="element">
+				  				<area shape="rect" coords="335,346,576,395" href="../elements/ead9511f-0436-40bc-9d99-4a5419e11492.html"  target="element">
+
+				  		<area shape="rect" coords="323,262,600,1067" href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html"  target="element">
+				  		        <area shape="rect" coords="23,286,252,323" href="../objects/9ae479e4-0233-4c7a-a67f-3fb1d979863e.html" target="element" >
+				  				<area shape="rect" coords="23,562,264,611" href="../elements/87b65fe8-4bfd-42af-beab-1bcca50d5cf3.html"  target="element">
+				  				<area shape="rect" coords="23,490,264,539" href="../elements/ba224f79-b5a0-421c-b925-0734ff5f3b7c.html"  target="element">
+				  				<area shape="rect" coords="23,418,264,467" href="../elements/20a4ce02-7b75-4a8b-8260-8211ca09d57d.html"  target="element">
+				  				<area shape="rect" coords="23,346,264,395" href="../elements/ce359e92-88e9-479a-b9ce-49a954fe8fc2.html"  target="element">
+
+				  		<area shape="rect" coords="11,262,288,1067" href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html"  target="element">
+				  				<area shape="rect" coords="1739,1164,1932,1213" href="../elements/a96ddcba-81a7-4738-b84c-807008a354b7.html"  target="element">
+				  				<area shape="rect" coords="1523,1163,1716,1212" href="../elements/facfd95a-6b88-4dd5-be72-ba42d448a7ca.html"  target="element">
+				  		        <area shape="rect" coords="11,1090,196,1151" href="../objects/699868a2-a889-4f73-a1f7-6137ab9d47e4.html" target="element" >
+				  				<area shape="rect" coords="191,1166,348,1212" href="../elements/cf625c7c-c444-41b7-9c91-c8ce5703390d.html"  target="element">
+				  				<area shape="rect" coords="1307,1164,1500,1213" href="../elements/4e7558ae-0caa-427e-8bda-fe17fc5d83c6.html"  target="element">
+				  				<area shape="rect" coords="1103,1164,1296,1213" href="../elements/31f73a6a-464f-4727-944c-0db06c02b187.html"  target="element">
+				  				<area shape="rect" coords="899,1163,1092,1212" href="../elements/a2835dc9-c758-4cbe-8ebe-50daf9105302.html"  target="element">
+				  				<area shape="rect" coords="695,1163,888,1212" href="../elements/e2abd7d9-145a-425c-b6b9-be77ef45007a.html"  target="element">
+				  				<area shape="rect" coords="527,1164,684,1213" href="../elements/ff497bcf-9300-4e26-8510-6d25070cb98a.html"  target="element">
+				  				<area shape="rect" coords="359,1164,516,1213" href="../elements/83cac4ab-6520-416b-b4c7-857db9c9d7a4.html"  target="element">
+				  				<area shape="rect" coords="23,1163,180,1212" href="../elements/78bb1f32-d81b-416f-8bfb-7b55f0b7f681.html"  target="element">
+
+				  		<area shape="rect" coords="11,1090,1968,1259" href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+											    <td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/78bb1f32-d81b-416f-8bfb-7b55f0b7f681.html" target="element"> shi_procurements </a> </td>
+													    <td> <a href="../elements/78bb1f32-d81b-416f-8bfb-7b55f0b7f681.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/83cac4ab-6520-416b-b4c7-857db9c9d7a4.html" target="element"> shi_projects </a> </td>
+													    <td> <a href="../elements/83cac4ab-6520-416b-b4c7-857db9c9d7a4.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/ff497bcf-9300-4e26-8510-6d25070cb98a.html" target="element"> shi_agreements_headers </a> </td>
+													    <td> <a href="../elements/ff497bcf-9300-4e26-8510-6d25070cb98a.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/e2abd7d9-145a-425c-b6b9-be77ef45007a.html" target="element"> shi_contract_headers </a> </td>
+													    <td> <a href="../elements/e2abd7d9-145a-425c-b6b9-be77ef45007a.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/a2835dc9-c758-4cbe-8ebe-50daf9105302.html" target="element"> shi_categories </a> </td>
+													    <td> <a href="../elements/a2835dc9-c758-4cbe-8ebe-50daf9105302.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/31f73a6a-464f-4727-944c-0db06c02b187.html" target="element"> Accounts </a> </td>
+													    <td> <a href="../elements/31f73a6a-464f-4727-944c-0db06c02b187.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/4e7558ae-0caa-427e-8bda-fe17fc5d83c6.html" target="element"> businessunits </a> </td>
+													    <td> <a href="../elements/4e7558ae-0caa-427e-8bda-fe17fc5d83c6.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/cf625c7c-c444-41b7-9c91-c8ce5703390d.html" target="element"> shi_procurement_members </a> </td>
+													    <td> <a href="../elements/cf625c7c-c444-41b7-9c91-c8ce5703390d.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											        <tr>
+											           <td> <a href="../objects/699868a2-a889-4f73-a1f7-6137ab9d47e4.html" target="element">  </a> </td>
+											           <td> <a href="../objects/699868a2-a889-4f73-a1f7-6137ab9d47e4.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+													<tr>
+													    <td> <a href="../elements/facfd95a-6b88-4dd5-be72-ba42d448a7ca.html" target="element"> shi_project_number </a> </td>
+													    <td> <a href="../elements/facfd95a-6b88-4dd5-be72-ba42d448a7ca.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/a96ddcba-81a7-4738-b84c-807008a354b7.html" target="element"> shi_term_master </a> </td>
+													    <td> <a href="../elements/a96ddcba-81a7-4738-b84c-807008a354b7.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html" target="element"> Quantus-Gevinst </a> </td>
+											    <td> <a href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/ce359e92-88e9-479a-b9ce-49a954fe8fc2.html" target="element"> shi_return </a> </td>
+													    <td> <a href="../elements/ce359e92-88e9-479a-b9ce-49a954fe8fc2.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/20a4ce02-7b75-4a8b-8260-8211ca09d57d.html" target="element"> shi_return_value_header </a> </td>
+													    <td> <a href="../elements/20a4ce02-7b75-4a8b-8260-8211ca09d57d.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/ba224f79-b5a0-421c-b925-0734ff5f3b7c.html" target="element"> shi_qualityreturn </a> </td>
+													    <td> <a href="../elements/ba224f79-b5a0-421c-b925-0734ff5f3b7c.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/87b65fe8-4bfd-42af-beab-1bcca50d5cf3.html" target="element"> shi_return_value </a> </td>
+													    <td> <a href="../elements/87b65fe8-4bfd-42af-beab-1bcca50d5cf3.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											        <tr>
+											           <td> <a href="../objects/9ae479e4-0233-4c7a-a67f-3fb1d979863e.html" target="element">  </a> </td>
+											           <td> <a href="../objects/9ae479e4-0233-4c7a-a67f-3fb1d979863e.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+											    <td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/ead9511f-0436-40bc-9d99-4a5419e11492.html" target="element"> shi_dimfoadel </a> </td>
+													    <td> <a href="../elements/ead9511f-0436-40bc-9d99-4a5419e11492.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/296f61ad-1001-4858-9494-58312b2d0792.html" target="element"> shi_foadel </a> </td>
+													    <td> <a href="../elements/296f61ad-1001-4858-9494-58312b2d0792.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/473df7c2-8624-4a0d-a95f-a4b50990ad47.html" target="element"> shi_kategoriegenskap </a> </td>
+													    <td> <a href="../elements/473df7c2-8624-4a0d-a95f-a4b50990ad47.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/8100ae3f-b823-4af2-a985-d5cc79a18036.html" target="element"> shi_kategoriprofil </a> </td>
+													    <td> <a href="../elements/8100ae3f-b823-4af2-a985-d5cc79a18036.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/896abdc0-79cb-4911-afe7-dc505bb28169.html" target="element"> shi_overordnetvekting </a> </td>
+													    <td> <a href="../elements/896abdc0-79cb-4911-afe7-dc505bb28169.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/9f4da9b4-95b5-456a-8b3f-0f5d8a3795d2.html" target="element"> shi_pavirkningsrelasjonerrisikoparametre </a> </td>
+													    <td> <a href="../elements/9f4da9b4-95b5-456a-8b3f-0f5d8a3795d2.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/eee0595e-0c4d-4980-baf9-dae63f30b8db.html" target="element"> shi_relasjoner </a> </td>
+													    <td> <a href="../elements/eee0595e-0c4d-4980-baf9-dae63f30b8db.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/4500a56c-9bd8-4d8f-b4b9-f7a05201006f.html" target="element"> shi_risikoparameter </a> </td>
+													    <td> <a href="../elements/4500a56c-9bd8-4d8f-b4b9-f7a05201006f.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/bdf8b8c2-b3ad-4046-a723-1e0ca532b1cb.html" target="element"> shi_aggregertrisikovurdering </a> </td>
+													    <td> <a href="../elements/bdf8b8c2-b3ad-4046-a723-1e0ca532b1cb.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/f8993876-e977-4c74-8bf9-849eb2db9b9e.html" target="element"> shi_risikovurdering </a> </td>
+													    <td> <a href="../elements/f8993876-e977-4c74-8bf9-849eb2db9b9e.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/cf293af5-4a02-4da7-94d2-08bff81a1c38.html" target="element"> shi_tiltak </a> </td>
+													    <td> <a href="../elements/cf293af5-4a02-4da7-94d2-08bff81a1c38.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/f8b0fbe0-b119-49f1-a642-ac83bc6798c6.html" target="element"> shi_vektmatrise </a> </td>
+													    <td> <a href="../elements/f8b0fbe0-b119-49f1-a642-ac83bc6798c6.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											        <tr>
+											           <td> <a href="../objects/b1cca8c8-a17d-477d-a69a-ef7c653513bf.html" target="element">  </a> </td>
+											           <td> <a href="../objects/b1cca8c8-a17d-477d-a69a-ef7c653513bf.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/787a5c62-27bb-4983-9120-470873884a88.html" target="element"> Quantus-Doc </a> </td>
+											    <td> <a href="../elements/787a5c62-27bb-4983-9120-470873884a88.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/48289dc2-2b9f-4157-b340-2cc9353eec1a.html" target="element">  </a> </td>
+											           <td> <a href="../objects/48289dc2-2b9f-4157-b340-2cc9353eec1a.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+													<tr>
+													    <td> <a href="../elements/id-bbecdd214f2c4e1791dd4a27448d0dbc.html" target="element"> shi_doc_template </a> </td>
+													    <td> <a href="../elements/id-bbecdd214f2c4e1791dd4a27448d0dbc.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-d7b8057b8b1d44ef9cea8190c9dd4371.html" target="element"> shi_generated_doc_template </a> </td>
+													    <td> <a href="../elements/id-d7b8057b8b1d44ef9cea8190c9dd4371.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-54de933dfe804715bf4b7b893a680f97.html" target="element"> shi_template_variable </a> </td>
+													    <td> <a href="../elements/id-54de933dfe804715bf4b7b893a680f97.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2240925b1a904309affe545ff3d758b1.html" target="element"> shi_system_variable </a> </td>
+													    <td> <a href="../elements/id-2240925b1a904309affe545ff3d758b1.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-5aec9f0a40e249a5afd043f525e6240a.html" target="element"> shi_template_variable_input </a> </td>
+													    <td> <a href="../elements/id-5aec9f0a40e249a5afd043f525e6240a.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/4cbfc35d-eb39-43d2-a978-0b11fc3eaaba.html" target="element"> Quantus-deliveries </a> </td>
+											    <td> <a href="../elements/4cbfc35d-eb39-43d2-a978-0b11fc3eaaba.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/583fa931-0d87-44d7-958a-80d864d9b7c0.html" target="element">  </a> </td>
+											           <td> <a href="../objects/583fa931-0d87-44d7-958a-80d864d9b7c0.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+													<tr>
+													    <td> <a href="../elements/42593d9b-d0a9-45ea-b8f8-3be2c7e80471.html" target="element"> shi_deliverable </a> </td>
+													    <td> <a href="../elements/42593d9b-d0a9-45ea-b8f8-3be2c7e80471.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/e0b13194-f885-46b5-9aaf-0846bec49e85.html" target="element"> shi_delivery_schedule </a> </td>
+													    <td> <a href="../elements/e0b13194-f885-46b5-9aaf-0846bec49e85.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/313465e1-5b25-437a-8093-c3612bfaf472.html" target="element"> Quantus-Gevinst-PA </a> </td>
+											    <td> <a href="../elements/313465e1-5b25-437a-8093-c3612bfaf472.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/1d19d36d-ba72-4d39-b801-da9929c167e5.html" target="element">  </a> </td>
+											           <td> <a href="../objects/1d19d36d-ba72-4d39-b801-da9929c167e5.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/6c5e1087-edc9-49d1-a1ce-b233af07c34d.html" target="element"> Quantus-Risiko-PA </a> </td>
+											    <td> <a href="../elements/6c5e1087-edc9-49d1-a1ce-b233af07c34d.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/5559ab80-011e-490d-a075-83706ac18d22.html" target="element">  </a> </td>
+											           <td> <a href="../objects/5559ab80-011e-490d-a075-83706ac18d22.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/648aa36e-134f-4a8c-9d00-6fed89d54617.html" target="element"> Quantus-Doc-PA </a> </td>
+											    <td> <a href="../elements/648aa36e-134f-4a8c-9d00-6fed89d54617.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/68b4e905-99e7-443d-b58c-680f7de350ae.html" target="element">  </a> </td>
+											           <td> <a href="../objects/68b4e905-99e7-443d-b58c-680f7de350ae.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/ddd936cd-dbe4-4952-9971-d8d9d5cd44e8.html" target="element"> Quantus-Deliveries-PA </a> </td>
+											    <td> <a href="../elements/ddd936cd-dbe4-4952-9971-d8d9d5cd44e8.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/a0689cf3-e93a-457a-bdee-7ffa092f5458.html" target="element">  </a> </td>
+											           <td> <a href="../objects/a0689cf3-e93a-457a-bdee-7ffa092f5458.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/cf1162a5-ac80-46f5-b106-dfda51e11ecd.html" target="element"> Quantus-Gevinst-UI </a> </td>
+											    <td> <a href="../elements/cf1162a5-ac80-46f5-b106-dfda51e11ecd.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-55115bd88e744a5faaed1dc171297c5c.html" target="element">  </a> </td>
+											           <td> <a href="../objects/id-55115bd88e744a5faaed1dc171297c5c.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-4e436d25d6194d6c818c8f8d3518f4c7.html" target="element"> Quantus-risiko-UI </a> </td>
+											    <td> <a href="../elements/id-4e436d25d6194d6c818c8f8d3518f4c7.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-b1c8cfe535324cfe84919851512a0dd2.html" target="element">  </a> </td>
+											           <td> <a href="../objects/id-b1c8cfe535324cfe84919851512a0dd2.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-47052df48d6140efbee2fe305bf20152.html" target="element"> Quantus-Doc-UI </a> </td>
+											    <td> <a href="../elements/id-47052df48d6140efbee2fe305bf20152.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-725845a7873c47d19b08e1ef3e69105b.html" target="element">  </a> </td>
+											           <td> <a href="../objects/id-725845a7873c47d19b08e1ef3e69105b.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-ed3f6d2b023a47e896cfc40b1fdce570.html" target="element"> Quantus-Deliveries-UI  </a> </td>
+											    <td> <a href="../elements/id-ed3f6d2b023a47e896cfc40b1fdce570.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-26dda204e3c04612b1de0a46bfd82974.html" target="element">  </a> </td>
+											           <td> <a href="../objects/id-26dda204e3c04612b1de0a46bfd82974.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-4cf83ac6d6ba489bb6e3f885c6d930cc.html" target="element"> Quantus-Kontaktskjema </a> </td>
+											    <td> <a href="../elements/id-4cf83ac6d6ba489bb6e3f885c6d930cc.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-a75520c0901e48648195179f9e1fbd45.html" target="element">  </a> </td>
+											           <td> <a href="../objects/id-a75520c0901e48648195179f9e1fbd45.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+													<tr>
+													    <td> <a href="../elements/id-cd5c8a23020a4d369f4019a6ee6640bb.html" target="element"> TODO </a> </td>
+													    <td> <a href="../elements/id-cd5c8a23020a4d369f4019a6ee6640bb.html" target="element" class="i18n-elementtype-DataObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-33a607d0c9ec420e866fc2a3b4719e87.html" target="element"> Quantus-Kontaktskjema-PA </a> </td>
+											    <td> <a href="../elements/id-33a607d0c9ec420e866fc2a3b4719e87.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-a72a7327f937499c9a11fad047391106.html" target="element">  </a> </td>
+											           <td> <a href="../objects/id-a72a7327f937499c9a11fad047391106.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-2a8b137fd0cc4973819ec624d7887849.html" target="element"> Quantus-kontaktskjema-UI </a> </td>
+											    <td> <a href="../elements/id-2a8b137fd0cc4973819ec624d7887849.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-649d5988a9b343b2a5d3e6c66d6f7d6c.html" target="element">  </a> </td>
+											           <td> <a href="../objects/id-649d5988a9b343b2a5d3e6c66d6f7d6c.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/8eb0c941-5239-433e-9637-ea09abff159f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/8eb0c941-5239-433e-9637-ea09abff159f.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/78bb1f32-d81b-416f-8bfb-7b55f0b7f681.html" target="element"> shi_procurements </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/9bc4b001-bb65-4250-9abf-45d59016e198.html" target="element">  </a> </td>
+																		<td> <a href="../elements/9bc4b001-bb65-4250-9abf-45d59016e198.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/83cac4ab-6520-416b-b4c7-857db9c9d7a4.html" target="element"> shi_projects </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/e5677d81-b556-4501-a89f-b3fb90633500.html" target="element">  </a> </td>
+																		<td> <a href="../elements/e5677d81-b556-4501-a89f-b3fb90633500.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/ff497bcf-9300-4e26-8510-6d25070cb98a.html" target="element"> shi_agreements_headers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/0c6bcbd9-6571-47a8-bc07-df6aa219c314.html" target="element">  </a> </td>
+																		<td> <a href="../elements/0c6bcbd9-6571-47a8-bc07-df6aa219c314.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/e2abd7d9-145a-425c-b6b9-be77ef45007a.html" target="element"> shi_contract_headers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/8e5f6914-4ac1-40bc-9910-2658aa6bfbd6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/8e5f6914-4ac1-40bc-9910-2658aa6bfbd6.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/a2835dc9-c758-4cbe-8ebe-50daf9105302.html" target="element"> shi_categories </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d9d0ce71-9236-456a-ab8a-c0b8b8cc05b9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d9d0ce71-9236-456a-ab8a-c0b8b8cc05b9.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/31f73a6a-464f-4727-944c-0db06c02b187.html" target="element"> Accounts </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f6220dbd-3295-488f-b706-5731b325d100.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f6220dbd-3295-488f-b706-5731b325d100.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/4e7558ae-0caa-427e-8bda-fe17fc5d83c6.html" target="element"> businessunits </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/772aa73f-8fc5-4d04-9225-b66ba5bda360.html" target="element">  </a> </td>
+																		<td> <a href="../elements/772aa73f-8fc5-4d04-9225-b66ba5bda360.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/cf625c7c-c444-41b7-9c91-c8ce5703390d.html" target="element"> shi_procurement_members </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/93b54f54-1f3a-48a5-84f9-e96c6c6bd25c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/93b54f54-1f3a-48a5-84f9-e96c6c6bd25c.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/facfd95a-6b88-4dd5-be72-ba42d448a7ca.html" target="element"> shi_project_number </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/aec1a0dc-082b-4043-bc58-a55f1d7dd8fa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/aec1a0dc-082b-4043-bc58-a55f1d7dd8fa.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																		<td> <a href="../elements/a96ddcba-81a7-4738-b84c-807008a354b7.html" target="element"> shi_term_master </a> </td>
+																	</tr>
+
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+																	<tr>
+																		<td> <a href="../elements/7772c476-8b7d-4918-8ab1-8937fed578bd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7772c476-8b7d-4918-8ab1-8937fed578bd.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html" target="element"> Quantus-Gevinst </a> </td>
+																		<td> <a href="../elements/ce359e92-88e9-479a-b9ce-49a954fe8fc2.html" target="element"> shi_return </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ae758d17-66b7-43e4-bc8d-af0a491d31fe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ae758d17-66b7-43e4-bc8d-af0a491d31fe.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html" target="element"> Quantus-Gevinst </a> </td>
+																		<td> <a href="../elements/20a4ce02-7b75-4a8b-8260-8211ca09d57d.html" target="element"> shi_return_value_header </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/36098938-0f6c-4745-8437-e2410cd8aa28.html" target="element">  </a> </td>
+																		<td> <a href="../elements/36098938-0f6c-4745-8437-e2410cd8aa28.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html" target="element"> Quantus-Gevinst </a> </td>
+																		<td> <a href="../elements/ba224f79-b5a0-421c-b925-0734ff5f3b7c.html" target="element"> shi_qualityreturn </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/7871370f-c3c5-46fd-9beb-b2c7ce27f5be.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7871370f-c3c5-46fd-9beb-b2c7ce27f5be.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html" target="element"> Quantus-Gevinst </a> </td>
+																		<td> <a href="../elements/87b65fe8-4bfd-42af-beab-1bcca50d5cf3.html" target="element"> shi_return_value </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ba68f6b7-022b-4281-9b93-4e69cc2da2e8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ba68f6b7-022b-4281-9b93-4e69cc2da2e8.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html" target="element"> Quantus-Gevinst </a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																	</tr>
+
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+																	<tr>
+																		<td> <a href="../elements/6a97fe36-8386-4c36-b313-e0a1c766d639.html" target="element">  </a> </td>
+																		<td> <a href="../elements/6a97fe36-8386-4c36-b313-e0a1c766d639.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/ead9511f-0436-40bc-9d99-4a5419e11492.html" target="element"> shi_dimfoadel </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/56f0f5a9-74df-4890-90f3-ec2c64837ed0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/56f0f5a9-74df-4890-90f3-ec2c64837ed0.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/296f61ad-1001-4858-9494-58312b2d0792.html" target="element"> shi_foadel </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/fd4f3209-2f5c-4844-bf31-95387df39dec.html" target="element">  </a> </td>
+																		<td> <a href="../elements/fd4f3209-2f5c-4844-bf31-95387df39dec.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/473df7c2-8624-4a0d-a95f-a4b50990ad47.html" target="element"> shi_kategoriegenskap </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/292d886a-16ea-4944-88a6-7c934ad15531.html" target="element">  </a> </td>
+																		<td> <a href="../elements/292d886a-16ea-4944-88a6-7c934ad15531.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/8100ae3f-b823-4af2-a985-d5cc79a18036.html" target="element"> shi_kategoriprofil </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ab638cd9-fdc4-4072-bedb-70f8646e12cb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ab638cd9-fdc4-4072-bedb-70f8646e12cb.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/896abdc0-79cb-4911-afe7-dc505bb28169.html" target="element"> shi_overordnetvekting </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/1a451bce-0556-4dc3-9cfa-cb4a16f2e99e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1a451bce-0556-4dc3-9cfa-cb4a16f2e99e.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/9f4da9b4-95b5-456a-8b3f-0f5d8a3795d2.html" target="element"> shi_pavirkningsrelasjonerrisikoparametre </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/211ac7be-8d82-4812-9099-83c1246914e0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/211ac7be-8d82-4812-9099-83c1246914e0.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/eee0595e-0c4d-4980-baf9-dae63f30b8db.html" target="element"> shi_relasjoner </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/c179671a-f68e-4081-b4f4-3dff9a4dd44d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c179671a-f68e-4081-b4f4-3dff9a4dd44d.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/4500a56c-9bd8-4d8f-b4b9-f7a05201006f.html" target="element"> shi_risikoparameter </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/a1b3c294-b912-471b-900a-96ead2b6af25.html" target="element">  </a> </td>
+																		<td> <a href="../elements/a1b3c294-b912-471b-900a-96ead2b6af25.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/bdf8b8c2-b3ad-4046-a723-1e0ca532b1cb.html" target="element"> shi_aggregertrisikovurdering </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d240c466-5af0-49db-b0b1-42bb994b6984.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d240c466-5af0-49db-b0b1-42bb994b6984.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/f8993876-e977-4c74-8bf9-849eb2db9b9e.html" target="element"> shi_risikovurdering </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/7dd1d987-cc68-41c0-9805-79078514e9c7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7dd1d987-cc68-41c0-9805-79078514e9c7.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/cf293af5-4a02-4da7-94d2-08bff81a1c38.html" target="element"> shi_tiltak </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/fa579892-a534-43e3-a18d-87a08f59e3b2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/fa579892-a534-43e3-a18d-87a08f59e3b2.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/f8b0fbe0-b119-49f1-a642-ac83bc6798c6.html" target="element"> shi_vektmatrise </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/eb4ea7f7-c3f5-4149-8899-3fd685dc7ffb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/eb4ea7f7-c3f5-4149-8899-3fd685dc7ffb.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																	</tr>
+
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+																	<tr>
+																		<td> <a href="../elements/2262175d-a505-4671-bd69-76e4ecb07e4f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2262175d-a505-4671-bd69-76e4ecb07e4f.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/787a5c62-27bb-4983-9120-470873884a88.html" target="element"> Quantus-Doc </a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/806e4509-88fc-4caf-b4ff-e516ed06639e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/806e4509-88fc-4caf-b4ff-e516ed06639e.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/787a5c62-27bb-4983-9120-470873884a88.html" target="element"> Quantus-Doc </a> </td>
+																		<td> <a href="../elements/13724a46-9956-465c-b1b0-48105969ddc1.html" target="element"> Quantus-Risiko </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/7e50f864-3685-4958-b881-49645818999d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7e50f864-3685-4958-b881-49645818999d.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/787a5c62-27bb-4983-9120-470873884a88.html" target="element"> Quantus-Doc </a> </td>
+																		<td> <a href="../elements/10f4b892-a2e3-4971-898b-69d90865e0e3.html" target="element"> Quantus-Gevinst </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-df238f11d4dd47d7bfcebc423c31f386.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-df238f11d4dd47d7bfcebc423c31f386.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/787a5c62-27bb-4983-9120-470873884a88.html" target="element"> Quantus-Doc </a> </td>
+																		<td> <a href="../elements/id-bbecdd214f2c4e1791dd4a27448d0dbc.html" target="element"> shi_doc_template </a> </td>
+																	</tr>
+
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+																	<tr>
+																		<td> <a href="../elements/31cf9cdf-f2a5-4825-a2fe-70d058d437f4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/31cf9cdf-f2a5-4825-a2fe-70d058d437f4.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/4cbfc35d-eb39-43d2-a978-0b11fc3eaaba.html" target="element"> Quantus-deliveries </a> </td>
+																		<td> <a href="../elements/42593d9b-d0a9-45ea-b8f8-3be2c7e80471.html" target="element"> shi_deliverable </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f3cef572-9d25-427e-9166-6e00586b1d5f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f3cef572-9d25-427e-9166-6e00586b1d5f.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/4cbfc35d-eb39-43d2-a978-0b11fc3eaaba.html" target="element"> Quantus-deliveries </a> </td>
+																		<td> <a href="../elements/e0b13194-f885-46b5-9aaf-0846bec49e85.html" target="element"> shi_delivery_schedule </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/dd3a5c0d-eb96-4b69-860c-a51b5e14be82.html" target="element">  </a> </td>
+																		<td> <a href="../elements/dd3a5c0d-eb96-4b69-860c-a51b5e14be82.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/4cbfc35d-eb39-43d2-a978-0b11fc3eaaba.html" target="element"> Quantus-deliveries </a> </td>
+																		<td> <a href="../elements/ecfb8bfe-cb3d-4260-9192-00610ebb9079.html" target="element"> Quantus-Core </a> </td>
+																	</tr>
+
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+																	<tr>
+																		<td> <a href="../elements/id-6ef078d91e1a45b88957ed9947d14a34.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6ef078d91e1a45b88957ed9947d14a34.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4cf83ac6d6ba489bb6e3f885c6d930cc.html" target="element"> Quantus-Kontaktskjema </a> </td>
+																		<td> <a href="../elements/id-cd5c8a23020a4d369f4019a6ee6640bb.html" target="element"> TODO </a> </td>
+																	</tr>
+
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
